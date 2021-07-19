@@ -1,7 +1,3 @@
-# NextJS , Tailwind, Typescript starter template
-Use `yarn` (recommended) or `npm` to initiate the installation process
+# Portfolio
 
-```
-yarn install
-yarn dev
-```
+Behold!!!!!!!
