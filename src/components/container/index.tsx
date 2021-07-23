@@ -1,8 +1,10 @@
 import React from 'react'
-import { ReactChildren } from 'interface'
+import { ContainerProp } from 'interface'
+import clsx from 'clsx'
 
-const Container = ({ children }: ReactChildren) => {
-  return <div>{children}</div>
+const Container = ({ children, className }: ContainerProp) => {
+  const classes = clsx(className, 'container px-4 mx-auto lg:max-w-5xl')
+  return <div className={classes}>{children}</div>
 }
 
 export default Container
